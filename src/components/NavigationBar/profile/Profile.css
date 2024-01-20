@@ -15,13 +15,26 @@
     color: var(--primary-white);
     position: absolute;
     left: 7rem;
-    bottom: 2rem;
+    bottom: 28px;
     font-size: 15px;
 }
 .userId{
     color: gray;
     position: absolute;
     left: 7rem;
-    bottom: 1rem;
+    bottom: 17px;
     font-size: small;
+}
+.threeDot{
+    position: absolute;
+    left: 17rem;
+    top: 230px;
+}
+.vector{
+    position: absolute;
+    left: 216px;
+    top: 226px;
+}
+.main-div .profile img{
+    border-radius: 40px;
 }

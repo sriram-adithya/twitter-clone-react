@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './NavigationBar.css'
+import notification from './Notifications.png'
 
 const NavigationBar = () => {
     const [sideNavigation, setSideNavigation] = useState([]);
@@ -26,6 +27,9 @@ const NavigationBar = () => {
             </ul>
             <div className='post-button'>
                 <button className='inside-btn'>Tweet</button>
+            </div>
+            <div className='notification'>
+                    <img src={notification} alt="" />
             </div>
     </div>
       

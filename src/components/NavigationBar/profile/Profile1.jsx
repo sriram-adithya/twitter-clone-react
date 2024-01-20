@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import './Profile.css'
+import group from './Group.png';
+import vector from './Vector.png';
 
 const Profile = () => {
 
@@ -18,7 +20,14 @@ const Profile = () => {
            {user.userName}
         </div>
         <div className='userId'>
-         {user.userId}
+         {"@"+user.userId}
+        </div>
+
+        <div className='threeDot'>
+          <img src={group} alt="" />
+        </div>
+        <div className='vector'>
+          <img src={vector} alt="" />
         </div>
         
     </div>

@@ -6,7 +6,16 @@
     margin-right: -72px;
     font-size: large;
 }
-
+.navigation-bar{
+    position: relative;
+    width: auto;
+    height: auto;
+}
+.notification{
+    position: absolute;
+    bottom: 250px;
+    left: 70px;
+}
 .links a{
 display: flex;
 width: 251px;
