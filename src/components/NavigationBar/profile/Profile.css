@@ -4,17 +4,19 @@
     flex-direction: row;
     position: relative;
     width: 300px; /* Set a width for your container */
-    height: 270px /* Set a height for your container */
+    height: auto; /* Set a height for your container */
 }
 .profile{
     position: absolute;
     bottom: 0;
+    top: 390px;
     left: 4rem;
 }
 .user-name{
     color: var(--primary-white);
     position: absolute;
     left: 7rem;
+    top: 400px;
     bottom: 28px;
     font-size: 15px;
 }
@@ -22,18 +24,19 @@
     color: gray;
     position: absolute;
     left: 7rem;
+    top: 413px;
     bottom: 17px;
     font-size: small;
 }
 .threeDot{
     position: absolute;
     left: 17rem;
-    top: 230px;
+    top: 400px;
 }
 .vector{
     position: absolute;
     left: 216px;
-    top: 226px;
+    top: 402px;
 }
 .main-div .profile img{
     border-radius: 40px;

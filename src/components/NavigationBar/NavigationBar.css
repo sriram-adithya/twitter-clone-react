@@ -3,17 +3,17 @@
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    margin-right: -72px;
     font-size: large;
 }
 .navigation-bar{
     position: relative;
     width: auto;
     height: auto;
+    padding-left: 5rem;
 }
 .notification{
     position: absolute;
-    bottom: 250px;
+    bottom: 235px;
     left: 70px;
 }
 .links a{
