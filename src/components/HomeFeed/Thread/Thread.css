@@ -1,0 +1,79 @@
+.img-container img{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+.main-feed{
+    
+}
+.tweet{
+    color: var(--primary-white);
+}
+.user-info {
+    display: flex;
+}
+.tweets{
+    display: flex;
+    height: 100px;
+    width: 60vh;
+    border: 1px solid #2F3336;
+    padding: 20px;
+}
+.user-info .name{
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    
+
+}
+.user-info .blue-tick{
+    padding-left: 5px;
+}
+.user-info .user-id{
+    padding-left: 5px;
+    font-size: 14px;
+    color: #687684;
+}
+.user-info .dot{
+    padding-left: 5px;
+}
+.user-info .date{
+    padding-left: 10px;
+}
+.tweet-content {
+    padding: 10px;
+}
+
+.buttons-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #72767A;
+}
+
+.buttons-container .comment{
+    width: 15px;
+    height: 14.51px;
+    padding-left: 10px;
+    display: flex;
+}
+.buttons-container .retweet{
+    width: 15px;
+    height: 14.51px;
+    display: flex;
+    padding-right: 10px;
+}
+.buttons-container .like{
+    width: 15px;
+    height: 14.51px;
+    display: flex;   
+    padding-right: 10px;
+}
+.buttons-container .share{
+    width: 15px;
+    height: 14.51px;
+    display: flex; 
+    padding-right: 80px;
+}
+

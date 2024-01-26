@@ -13,7 +13,7 @@ root.render(
     <>
     
     <NavigationBar/>
-    <div className="feed-design">
+    <div className="feed-border">
     < HeaderFeed />
     <Threads />
     </div>

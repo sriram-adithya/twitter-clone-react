@@ -1,6 +1,4 @@
 .top-bar{
-     /* height: 88px; 
-     width: 100vw; */
     border-bottom: 1px solid #2F3336;
     border-left: 1px solid #2F3336;
     border-right: 1px solid #2F3336;
@@ -51,12 +49,11 @@ letter-spacing: -0.3px;
     flex-direction: row;
 }
 .inside-form img{
-    width: 45px;
-    height: 45px;
-    border-radius: 45px;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
 }
 .tweet-editor input{
-    width: 300px;
     height: 21px;
     background: none;
     margin:21px 0px 0px 8px;
@@ -83,7 +80,6 @@ letter-spacing: -0.3px;
     flex-shrink: 0;
     border-radius: 36px;
     margin-top: 54px;
-    margin-left: 16rem;
     border: none;
 }
 
@@ -97,14 +93,6 @@ letter-spacing: -0.3px;
         width: 100vw;
     }
 }
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 767px){
 .top-bar{
         width: 100vw;
@@ -112,5 +100,4 @@ letter-spacing: -0.3px;
 .top-tabs{
     width: 100vw;
  }
- 
 }
