@@ -21,7 +21,7 @@ padding:10px
 
 width:auto;
 display: flex;
-padding:0px 84px 0px 65px;
+padding:30px 84px 0px 65px;
 border-bottom: 1px solid #2F3336;
 justify-content:space-between;
 font-size: 14px;
@@ -80,23 +80,4 @@ letter-spacing: -0.3px;
     border-radius: 36px;
     margin-top: 54px;
     border: none;
-}
-
-
-
-
-
-
-@media only screen and (max-width: 767px){
-    .tweet-editor{
-        
-    }
-}
-@media only screen and (max-width: 767px){
-.top-bar{
-       
-}
-.top-tabs{
-    
- }
 }

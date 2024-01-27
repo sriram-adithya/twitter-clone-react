@@ -32,7 +32,7 @@ const HeaderFeed = ( onPostTweet) => {
   };
 
   const handleTweetChange = (e) =>{
-    console.log(setTweetText(e.target.value));
+    setTweetText(e.target.value)
   }
 
   const handlePostTweet = () =>{

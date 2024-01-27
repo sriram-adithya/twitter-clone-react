@@ -20,7 +20,7 @@ body{
 #root{
 display: flex;
 flex-direction: row;
-gap: 30px;
+gap: 10px;
 }
 .feed-border{
     width: auto;
@@ -32,7 +32,7 @@ gap: 30px;
 }
 .navigation-bar{
 padding-left: 280px;
-    /* left: 10px; */ 
+    left: 30px; 
 }
 
 
@@ -40,24 +40,27 @@ padding-left: 280px;
 .navigation-bar{
       display: none;
 }
+.side-bar{
+    display: none;
+}
 .post-button{
-    justify-content: end;
+    justify-content:flex-start;
     align-items: end;
 }
 .feed-border{
    margin-left: 20px;
-   margin-right: 20px;
-    
+   margin-right: 20px;    
+}  
+.tweet-editor button{
+    padding-right: 100px;
 }
-
-  
 .feed-wrapper{
     border: none;
 }
 .tweets{
       width: 100vw;
 }
-.sidebar{
+.Sidebar{
       display: none;
 }
 }
@@ -72,3 +75,12 @@ padding-left: 280px;
 }
 }
 
+@media only screen and (max-width: 500px){
+
+.feed-border{
+    margin-left: 20px;
+    margin-right: 20px;
+         
+}  
+
+}

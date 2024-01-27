@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './NavigationBar.css'
 import notification from './Notifications.png'
+import Profile from './profile/Profile1';
 
 const NavigationBar = () => {
     const [sideNavigation, setSideNavigation] = useState([]);
@@ -30,6 +31,10 @@ const NavigationBar = () => {
             </div>
             <div className='notification'>
                     <img src={notification} alt="" />
+            </div>
+
+            <div>
+                < Profile />
             </div>
     </div>
       
