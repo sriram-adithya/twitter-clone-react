@@ -1,0 +1,29 @@
+.sidebar-mainContainer{
+    color: white;
+    margin: 10px;
+    position: relative;
+    }
+    .sidebar-search input{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 17.9px;
+        font-family: SF Pro Text;
+        width: 350px;
+        height: 42px;
+        position: relative;
+        border: none;
+        outline: none;
+        background: #202327;
+        padding-left: 50px;
+        border-radius: 42px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sidebar-search img{
+        position: absolute;
+        left: 10px;
+        top: 13px;
+        background-color:#202327;
+        z-index: 1;
+    }

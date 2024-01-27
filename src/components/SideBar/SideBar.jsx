@@ -1,11 +1,17 @@
 import React from 'react'
+import './sideBar.css'
+import Search from './Search/Search';
+import Trending from './Trending/Trending';
+import Follow from './Follow/Follow';
 
 const SideBar = () => {
   return (
-    <div>
-      
-    </div>
+    <div className='side-bar'>
+      <Search/>
+      <Trending />
+      <Follow />
+    </div>  
   )
 }
 
-export default SideBar
+export default SideBar;

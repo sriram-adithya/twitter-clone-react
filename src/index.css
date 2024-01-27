@@ -45,16 +45,14 @@ padding-left: 280px;
     align-items: end;
 }
 .feed-border{
-    margin: 20px;
+   margin-left: 20px;
+   margin-right: 20px;
     
 }
 
   
 .feed-wrapper{
     border: none;
-}
-.top-bar{
-      width: 100vw;
 }
 .tweets{
       width: 100vw;

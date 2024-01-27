@@ -1,5 +1,4 @@
 .top-bar{
-    border-bottom: 1px solid #2F3336;
     border-left: 1px solid #2F3336;
     border-right: 1px solid #2F3336;
 }
@@ -13,7 +12,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: -0.3px;
-padding: 13px 344px 18px 18px;
+padding:10px 
 }
 
 /* form section  */
@@ -56,7 +55,7 @@ letter-spacing: -0.3px;
 .tweet-editor input{
     height: 21px;
     background: none;
-    margin:21px 0px 0px 8px;
+    margin:10px 0px 0px 8px;
     border: none;
     color: #757575;
     justify-content: center;
@@ -73,7 +72,7 @@ letter-spacing: -0.3px;
     display: flex;
     width: 74px;
     height :34px;
-    padding: 9px 16px;
+    padding: 10px 16px;
     align-items: center;
     justify-content: center;
     gap: 10px;
@@ -90,14 +89,14 @@ letter-spacing: -0.3px;
 
 @media only screen and (max-width: 767px){
     .tweet-editor{
-        width: 100vw;
+        
     }
 }
 @media only screen and (max-width: 767px){
 .top-bar{
-        width: 100vw;
+       
 }
 .top-tabs{
-    width: 100vw;
+    
  }
 }

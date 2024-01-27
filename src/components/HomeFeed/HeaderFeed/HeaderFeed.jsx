@@ -32,7 +32,7 @@ const HeaderFeed = ( onPostTweet) => {
   };
 
   const handleTweetChange = (e) =>{
-    setTweetText(e.target.value)
+    console.log(setTweetText(e.target.value));
   }
 
   const handlePostTweet = () =>{
@@ -74,7 +74,7 @@ const HeaderFeed = ( onPostTweet) => {
           <img src={twitterData.loggedInUser.imageData.url} alt={twitterData.loggedInUser.imageData.alt}/>
           <input className='search' value={tweetText} onChange={handleTweetChange} type='text' placeholder="What's happening?"/>
         </div>
-        <div className='button'>
+        <div className='btn'>
           <div className='post-button'>
             <button onClick={handlePostTweet}>Tweet</button>
           </div>

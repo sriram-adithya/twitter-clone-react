@@ -1,0 +1,142 @@
+.trending-container{
+    color: var(--primary-white);
+
+
+    background-color: #202327; 
+    border-radius: 15px; 
+    width:  350px;
+    height: 360px;
+    margin: 10px;
+}
+.title{
+    padding: 10px;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 22.67px;
+    color: #D9D9D9;
+    
+}
+/* CONTENT 1 */
+.content{
+    padding: 10px;
+}
+.content .country{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.51px;
+    color: #6E767D;
+    
+}
+.content .hashtag-text{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17.9px;
+    color: #D9D9D9;
+}
+.content .tweets-num{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.51px;
+    color: #6E767D;
+}
+
+/* CONTENT 2 */
+.content2{
+    padding: 10px;
+}
+.content2 .sports{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.51px;
+    color: #6E767D;
+}
+.content2 .sports .span-dot{
+    padding-left: 7px
+}
+.content2 .cricket{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17.9px;
+    color: #D9D9D9;
+}
+.content2 .trending-text{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.51px;
+    color: #6E767D;
+}
+.content2 .trending-text .hastag-trending{
+    color: var(--Secondary-Blue);
+}
+
+/* Content -3 */
+
+.content3{
+    padding: 10px;
+}
+.content3 .category{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.51px;
+    color: #6E767D;
+}
+.content3 .category .span-dot{
+    padding-left: 5px;
+}
+.content3 .text-must{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17.9px;
+    color: #D9D9D9;
+}
+.content3 .tweets-num{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.51px;
+    color: #6E767D;
+}
+
+/* content - 4 */
+
+.content4{
+    padding: 10px;
+}
+
+.content4 .category2{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.51px;
+    color: #6E767D;
+}
+.content4 .category2 .span-dot{
+    padding-left: 7px;
+}
+.content4 .captain{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17.9px;
+    color: #D9D9D9;
+}
+.content4 .trending-text{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.51px;
+    color: #6E767D;
+}
+.content4 .trending-text .hastag-trending{
+    color: var(--Secondary-Blue);
+}
+
+/* Show more button  */
+
+.show-more-div{
+    padding: 10px;
+}
+.show-more-text{
+font-size: 15px;
+font-weight: 700;
+line-height: 18px;
+text-align: left;
+color:#1D9BF0;
+cursor: pointer;
+}

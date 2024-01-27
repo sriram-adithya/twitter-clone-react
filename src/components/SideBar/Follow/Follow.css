@@ -1,0 +1,60 @@
+.follow-container{
+    color: var(--primary-white);
+    background-color: #202327;
+    border-radius: 15px;
+    width:350px;
+    height: 220px;
+    margin-left: 10px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    padding: 10px;
+}
+.img-div{
+    
+}
+.img-div .img-content{
+    width: 47px;
+    height: 47px;
+    border-radius: 36px;
+}
+.user{
+    display: flex;
+    padding: 10px;
+}
+.user-details .name{
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: -0.30000001192092896px;
+text-align: left;
+color: var(--primary-white);
+padding-left: 5px;
+}
+.user-details .user-id{
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: -0.30000001192092896px;
+text-align: left;
+color:#687684;
+padding-left: 5px;
+}
+.follow-btn{
+    padding-left: 60px;
+    border-radius: 20px;
+}
+.follow-btn button{
+    width: 73px;
+    height: 31px;
+    padding: 7px, 15px, 0px, 15px;
+    border-radius: 32px;
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+}

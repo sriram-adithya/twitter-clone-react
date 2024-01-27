@@ -13,8 +13,8 @@
 }
 .notification{
     position: absolute;
-    bottom: 235px;
-    left: 70px;
+    bottom:677px;
+    left: 108px;
 }
 .links a{
 display: flex;
@@ -36,9 +36,9 @@ font-size: large;
     align-items: center;
 }
 .post-button{
-        align-items: center;
-        justify-content: center;
-        padding-left: 12px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 12px;
 }
 .side-list .links a{
     text-decoration: none;

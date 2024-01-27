@@ -6,6 +6,7 @@ import NavigationBar from './components/NavigationBar/NavigationBar';
 import HeaderFeed from './components/HomeFeed/HeaderFeed/HeaderFeed';
 import Profile from "./components/NavigationBar/profile/Profile1.jsx"
 import Threads from './components/HomeFeed/Thread/Thread.jsx';
+import SideBar from './components/SideBar/SideBar.jsx';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,6 +18,7 @@ root.render(
     < HeaderFeed />
     <Threads />
     </div>
+    <SideBar />
   </>
     
 );
